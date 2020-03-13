@@ -1,7 +1,7 @@
 # pandas_and_awk
 
 ### parse csv from command line
-awk 'BEGIN { FS = "," } ; { print $(NF-1) }' udc14_19.txt |grep 19|wc -l
+awk -F "," '$19=="S"' udc01_19.txt
 
 ## combined DF only on shared columns
 combined = pd.concat([df, df1],join='inner')  # default is columns
