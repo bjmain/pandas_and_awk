@@ -12,3 +12,6 @@ df.to_csv("out.csv.gz",na_rep="NA",index=False)
 ## Save a DF if you don't want to re-recreate it.
 original_df.to_pickle("orig.pkl")
 unpickled_df = pd.read_pickle("orig.pkl")
+
+# find and replace 
+for f in *_uploader.sh; do sed -i 's/bmh/bmm/g' $f; done
