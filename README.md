@@ -15,3 +15,6 @@ unpickled_df = pd.read_pickle("orig.pkl")
 
 # find and replace 
 for f in *_uploader.sh; do sed -i 's/bmh/bmm/g' $f; done
+
+# batch cancel
+scancel {19403854..19403880}
